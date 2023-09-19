@@ -33,6 +33,11 @@ cd [project]
   libbrotlicommon.so.1 => /lib/aarch64-linux-gnu/libbrotlicommon.so.1 (0x0000ffff84e88000)
 ```
 
+# Unicode FONT
+
+load font path: `/usr/share/fonts/truetype/Unifont/Unifont-Medium.ttf`
+download by : `https://ftp.gnu.org/gnu/unifont/unifont-15.1.01/`
+
 
 # SDL rebuild
 
