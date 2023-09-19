@@ -1,6 +1,6 @@
 # beepy-vterm
 
-# Build
+## Build
 
 ```
 cd [project]
@@ -8,13 +8,13 @@ cd [project]
 ./sdl 
 ```
 
-# HW
+## HW
 
 * beepy from https://beepy.sqfmi.com/
 * raspbeey pi zero 2w
 * 3dprinter case
 
-# Deps
+## Deps
 
 ```
   libSDL2-2.0.so.0 => /usr/local/lib/libSDL2-2.0.so.0 (0x0000ffff852c3000)
@@ -33,20 +33,20 @@ cd [project]
   libbrotlicommon.so.1 => /lib/aarch64-linux-gnu/libbrotlicommon.so.1 (0x0000ffff84e88000)
 ```
 
-# Unicode FONT
+## Unicode FONT
 
-load font path: `/usr/share/fonts/truetype/Unifont/Unifont-Medium.ttf`
-download by : `https://ftp.gnu.org/gnu/unifont/unifont-15.1.01/`
+* load font path: `/usr/share/fonts/truetype/Unifont/Unifont-Medium.ttf`
+* download by : `https://ftp.gnu.org/gnu/unifont/unifont-15.1.01/`
 
 
-# SDL rebuild
+## SDL rebuild
 
 ```
 cmake  ../SDL2-2.28.3/   -DSDL_WAYLAND=OFF -DSDL_VULKAN=OFF -DSDL_DUMMYAUDIO=OFF -DSDL_WAYLAND=OFF  -DSDL_DUMMYAUDIO=OFF -DSDL_DBUS=OFF -DSDL_IBUS=OFF  -DSDL_X11=OFF
 ```
 
-# Base
+## Base
 
-https://gist.github.com/min4builder/0a044cf8b1d5d60d8fcce10ee24993fe
-https://gist.github.com/shimarin/71ace40e7443ed46387a477abf12ea70
+* https://gist.github.com/min4builder/0a044cf8b1d5d60d8fcce10ee24993fe
+* https://gist.github.com/shimarin/71ace40e7443ed46387a477abf12ea70
 
